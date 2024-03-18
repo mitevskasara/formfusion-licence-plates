@@ -88,7 +88,7 @@ declare module "@formfusion/licence-plates" {
     [K in keyof T as K extends string ? Lowercase<K> : never]: T[K];
   };
 
-  type licencePlates = LowercaseKeys<LicencePlates>;
+  const licencePlates: LowercaseKeys<LicencePlates>;
 
   export = licencePlates;
 }
