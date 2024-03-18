@@ -1,7 +1,7 @@
 {
   "name": "@formfusion/licence-plates",
-  "version": "1.0.0",
-  "description": "Set of validation rules for worldwide licence plates used for the formfusion (form management & validation) library",
+  "version": "1.0.1",
+  "description": "Set of validation rules for worldwide licence plate codes used for the formfusion (form management & validation) library",
   "private": false,
   "scripts": {
     "build": "find . -mindepth 1 -maxdepth 1 -type d ! -name 'node_modules' ! -name 'src' ! -name 'plugins' -exec sh -c 'find \"{}\" -type f -name \"*.js\" | read' \\; -exec rm -rf {} \\; && node esbuild.js",
